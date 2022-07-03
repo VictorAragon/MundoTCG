@@ -6,13 +6,13 @@ global $db;
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost/www/LojaCartas2/");
+	define("BASE_URL", "http://localhost/www/MundoTcg/");
 	$config['dbname'] = 'mundotcg';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
 } else {
-	define("BASE_URL", "http://localhost/www/LojaCartas2/");
+	define("BASE_URL", "http://localhost/www/MundoTcg/");
 	$config['dbname'] = 'mundotcg';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
