@@ -1,3 +1,5 @@
+<?php echo $categoryName; ?>
+
 <div class="row">
     <?php
     $a = 0;
@@ -18,7 +20,7 @@
 <div class="paginationArea">
 <?php
 for($q=1; $q<=$numberOfPages; $q++){ ?>
-    <div class="paginationItem <?php echo ($currentPage == $q)? 'pageActive':'' ?>"><a href="<?php echo BASE_URL;?>?p=<?php echo $q;?>"><?php echo $q;?></a></div>
+    <div class="paginationItem <?php echo ($currentPage == $q)? 'pageActive':'' ?>"><a href="<?php echo BASE_URL;?>categories/enter/<?php echo $idCategory;?>?p=<?php echo $q;?>"><?php echo $q;?></a></div>
 <?php
 }
 ?>

@@ -291,5 +291,134 @@ footer h3 {
 	padding:0;
 }
 
+/********  Produtos  ***********/
+.product_item{
+	cursor: pointer;
+	padding: 10px;
+	background-color: transparent; 
+	border: 1px solid #fff;
+}
 
+.product_item:hover{
+	background-color: #eee;
+	transition: background-color 0.3s linear;
+	border: 1px solid #eee;
+}
 
+.product_item a{
+	text-decoration: none;
+	display: block;
+}
+
+.product_tags{
+	position: absolute;
+}
+
+.product_tag{
+	height: 30px;
+	line-height: 30px;
+	background-color: #fff;
+	float: left;
+	clear: both;
+	padding: 0 5px;
+	margin-top: 5px;
+	color: #fff;
+}
+
+.product_name{
+	font-weight: bold;
+	color: #0e53a5;
+}
+
+.product_brand{
+	color: 000;
+	font-size: 10px;
+}
+
+.product_priceMin{
+	float: left;
+	width: 33%;
+	text-align: center;
+	font-weight: 600;
+}
+
+.product_priceMed{
+	float: left;
+	width: 33%;
+	text-align: center;
+	font-weight: 600;
+}
+
+.product_priceMax{
+	float: left;
+	width: 33%;
+	text-align: center;
+	font-weight: 600;
+}
+
+.red{
+	background-color: #f8484a;
+	font-weight: 700;
+}
+
+.green{
+	background-color: #59b210;
+	font-weight: 700;
+}
+
+.blue{
+	background-color: #407ac5;
+	font-weight: 700;
+}
+
+/********* END PRODUCTS *********/
+
+/********* PAGINATION **********/
+.paginationItem{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #ddd;
+	font-size: 13px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+}
+
+.paginationItem a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+
+.paginationItem:hover, 
+.pageActive {
+	background-color: #eee;
+	transition: background-color 0.3s linear;
+	border: 1px solid #59b210;
+	transition: border 0.3s linear;
+}
+
+.paginationArea{
+	margin-top: 30px;
+}
+/****** END PAGINATION ******/
+
+/****** SIDEBAR ******/
+.dropdown-menu{
+	width: 100%;
+}
+
+.filterBox{
+	border-bottom: 1px solid #999;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.filterTitle{
+	color: #59b210;
+	font-size: 17px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
